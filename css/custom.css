@@ -1,61 +1,85 @@
 *{
-    border:1px solid black;
+    
     color:#fff;
+    text-align: center;
+    
+    
+}
+body{
+    margin: 25px 150px;
 }
 li{
     list-style-type: none;
 }
-body{
-    margin: 10px 10px;
-}
+
 header{
-    background-color: #f8f8f8;
+    background-color: #f8f8f8;   
 }
 .logo{
+    
+    display: flex;
     background-color: #e77e23;
-    width: 100px;
-    height: 60px;
+    max-width: 100px;
+    max-height: 60px; 
 }
 .link-list ul{
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 .green{
+    
     background-color: #2ecd71;
+
 }
+
 .blue{
     background-color: #3598db;
 }
 .red{
     background-color: #e84c3d;
+    
 }
 .yellow{
     background-color: #f1c40f;
+    
 }
 .purple{
     background-color: #9b58b5;
-}
-
-
-
-
-
-
-
-footer{
     
+}
+footer{
     background-color: #f5f5f5;
 }
-footer ul{
+.bottom-nav ul{
     display: flex;
-    flex-direction: row;
-   
+    justify-content: flex-start;
+}
+
+footer{
+
+}
+.bottom-nav{
+    display: flex;
+justify-content: flex-start;
+
+}
+.bottom-nav ul{
+    padding-inline-start: 0px;
+    
+
 }
 .bottom-nav ul li{
     background-color: #e77e23;
 }
-.socials{
+.socials ul{
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
+/*.row{
+    --bs-gutter-x: 0rem;
+}*/
+
+/*kodel header/footer ~10.5px margin
